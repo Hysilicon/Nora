@@ -1,0 +1,17 @@
+<script>
+
+let imgToBeModified = document.getElementsByTagName('img');
+
+  for(let img of imgToBeModified){
+    let imgLoading = img.loading;
+    console.log(imgLoading);
+    if(imgLoading){
+      img.setAttribute("loading", "eager");
+    }
+  }
+
+</script>
+  
+  </body>
+</html>
+

@@ -1,0 +1,24 @@
+{
+  "name": "simplified-reader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "cross-env NODE_ENV=dev nodemon www.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "bootstrap": "3.3.7",
+    "cross-env": "^7.0.3",
+    "ejs": "2.5.2",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "node-readability": "2.2.0",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.1",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}

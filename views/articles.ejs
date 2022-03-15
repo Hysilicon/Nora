@@ -1,0 +1,27 @@
+<% include head %>
+<h1>Current articles</h1>
+<div class="article-list">
+  <ul>
+    <% articles.forEach((article) => { %>
+    <div class="article-unit">
+      <li>
+        <a href="/articles/<%= article.id %>"> <%= article.title %> </a>
+      </li>
+
+      <p>Created time: <%= article.time %></p>
+      <!-- <form action = '/articles/delete/<%= article.id %>' method = 'post'>
+        <input type="submit" value = 'Delete'>
+        </form> -->
+    </div>
+
+    <% }) %>
+  </ul>
+</div>
+
+<div class="back-form">
+  <form class="back" action="/" method="get">
+    <input class="btn" id="back" type="submit" value="Back" />
+  </form>
+</div>
+<% include foot %>
+
