@@ -8,10 +8,10 @@
         <a href="/articles/<%= article.id %>"> <%= article.title %> </a>
       </li>
 
-      <p>Created time: <%= article.time %></p>
-      <!-- <form action = '/articles/delete/<%= article.id %>' method = 'post'>
-        <input type="submit" value = 'Delete'>
-        </form> -->
+      <p class="text-light">Created time: <%= article.time %></p>
+      <form class="delete-form" action = '/articles/delete/<%= article.id %>' method = 'post' onclick="return delete_confirm()">
+        <input class="btn" type="submit" value = 'Delete'>
+        </form>
     </div>
 
     <% }) %>

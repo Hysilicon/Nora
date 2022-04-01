@@ -1,0 +1,48 @@
+h1 {
+    text-transform: uppercase;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Microsoft-yahei", sans-serif;
+    font-size: 18px;
+    margin: 30px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .btn {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+
+  .article-unit {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #e0ecee;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+  }
+
+  .article-unit:hover {
+    background-color: rgb(168, 184, 183);
+
+  }
+
+  .back {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .back #back {
+    width: 100%;
+  }

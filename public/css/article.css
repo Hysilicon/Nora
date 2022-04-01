@@ -1,0 +1,30 @@
+h1 {
+  text-decoration: solid;
+  font: 30px/1.6 "Consolas";
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+p {
+  font: 16px/1.6 "Google sans", tahoma, \5b8b\4f53, sans-serif;
+  margin-top: 10px;
+}
+
+img {
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 90%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.article-container {
+  margin: 30px;
+}

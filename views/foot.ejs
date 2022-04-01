@@ -1,17 +1,44 @@
 <script>
 
-let imgToBeModified = document.getElementsByTagName('img');
+  // Edit elements in article by bootstrap
+  let imgToBeModified = document.getElementsByTagName('img');
+  let ulToBeModified = document.getElementsByTagName('ul');
+  let liToBeModified = document.getElementsByTagName('li');
+  let tableToBeModified = document.getElementsByTagName('table');
 
-  for(let img of imgToBeModified){
+
+  for (let img of imgToBeModified) {
     let imgLoading = img.loading;
-    console.log(imgLoading);
-    if(imgLoading){
+    if (imgLoading) {
+      img.setAttribute('alt', '');
       img.setAttribute("loading", "eager");
     }
   }
 
-</script>
-  
-  </body>
-</html>
+  for (const ul of ulToBeModified) {
+    ul.setAttribute('class', "list-group");
+  }
 
+  for (const li of liToBeModified) {
+    li.setAttribute('class', "list-group-item");
+  }
+
+  for (const table of tableToBeModified) {
+    table.setAttribute('class', "table table-striped");
+  }
+
+
+  function delete_confirm() {
+    let cfm = confirm('确定删除？');
+    if (cfm) {
+    } else {
+      return false;
+    }
+
+  }
+
+</script>
+
+</body>
+
+</html>
