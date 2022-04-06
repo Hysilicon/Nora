@@ -15,6 +15,7 @@ p {
   margin-top: 10px;
 }
 
+<<<<<<< HEAD
 li {
   font: 17px/1.5 "Microsoft Yahei", arial, tahoma, \5b8b\4f53, sans-serif;
   list-style: circle, decimal;
@@ -29,6 +30,8 @@ td {
   border: 1px solid black;
 }
 
+=======
+>>>>>>> a9ade1a4a057d0055472a11454e69b871feb4fc1
 img {
   border-radius: 5px;
   padding: 20px;

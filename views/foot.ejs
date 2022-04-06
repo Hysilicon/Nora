@@ -1,21 +1,48 @@
 <script>
 
+<<<<<<< HEAD
   let imgToBeModified = document.getElementsByTagName('img');
 
   for (let img of imgToBeModified) {
     let imgLoading = img.loading;
     console.log(imgLoading);
+=======
+  // Edit elements in article by bootstrap
+  let imgToBeModified = document.getElementsByTagName('img');
+  let ulToBeModified = document.getElementsByTagName('ul');
+  let liToBeModified = document.getElementsByTagName('li');
+  let tableToBeModified = document.getElementsByTagName('table');
+
+
+  for (let img of imgToBeModified) {
+    let imgLoading = img.loading;
+>>>>>>> a9ade1a4a057d0055472a11454e69b871feb4fc1
     if (imgLoading) {
       img.setAttribute('alt', '');
       img.setAttribute("loading", "eager");
     }
   }
 
+<<<<<<< HEAD
   // for (let img of imgToBeModified) {
   //   if(img.getAttribute('alt') =='-'){
        //img.after = (<img src='/stamp0432.png'/>);
   //   }
   // }
+=======
+  for (const ul of ulToBeModified) {
+    ul.setAttribute('class', "list-group");
+  }
+
+  for (const li of liToBeModified) {
+    li.setAttribute('class', "list-group-item");
+  }
+
+  for (const table of tableToBeModified) {
+    table.setAttribute('class', "table table-striped");
+  }
+
+>>>>>>> a9ade1a4a057d0055472a11454e69b871feb4fc1
 
   function delete_confirm() {
     let cfm = confirm('确定删除？');
