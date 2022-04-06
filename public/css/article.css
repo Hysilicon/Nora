@@ -1,0 +1,44 @@
+h1 {
+  text-decoration: solid;
+  font: 30px/1.6 "Consolas";
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+p {
+  font: 16px/1.6 "Google sans", tahoma, \5b8b\4f53, sans-serif;
+  margin-top: 10px;
+}
+
+li {
+  font: 17px/1.5 "Microsoft Yahei", arial, tahoma, \5b8b\4f53, sans-serif;
+  list-style: circle, decimal;
+  line-height: 200%;
+  color: rgb(48, 25, 61);
+}
+
+table {
+  border: 2px solid black;
+}
+td {
+  border: 1px solid black;
+}
+
+img {
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 90%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.article-container {
+  margin: 30px;
+}

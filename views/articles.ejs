@@ -9,9 +9,9 @@
       </li>
 
       <p>Created time: <%= article.time %></p>
-      <!-- <form action = '/articles/delete/<%= article.id %>' method = 'post'>
-        <input type="submit" value = 'Delete'>
-        </form> -->
+      <form class="delete-form" action = '/articles/delete/<%= article.id %>' method = 'post' onclick="return delete_confirm()">
+        <input class="btn" type="submit" value = 'Delete'>
+        </form>
     </div>
 
     <% }) %>

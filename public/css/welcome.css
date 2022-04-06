@@ -1,0 +1,49 @@
+body {
+  margin: 0 30px;
+  line-height: 1;
+  min-height: 100vh;
+  background-color: rgb(25, 31, 31);
+}
+h1 {
+  color: rgb(225, 251, 246);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.ref {
+  text-decoration-line: none;
+  color: rgb(176, 233, 233);
+  text-align: center;
+}
+.url-getter {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.url-desc {
+  font-size: 16px;
+  color: rgb(176, 233, 233);
+}
+.content-wrapper {
+  font: 16px/1.5 "Cambria", arial, tahoma, \5b8b\4f53, sans-serif;
+  letter-spacing: 2px;
+}
+
+.search-form {
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  border: none;
+  padding: 10px 20px;
+  color: black;
+}

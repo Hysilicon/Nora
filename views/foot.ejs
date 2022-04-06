@@ -1,17 +1,33 @@
 <script>
 
-let imgToBeModified = document.getElementsByTagName('img');
+  let imgToBeModified = document.getElementsByTagName('img');
 
-  for(let img of imgToBeModified){
+  for (let img of imgToBeModified) {
     let imgLoading = img.loading;
     console.log(imgLoading);
-    if(imgLoading){
+    if (imgLoading) {
+      img.setAttribute('alt', '');
       img.setAttribute("loading", "eager");
     }
   }
 
-</script>
-  
-  </body>
-</html>
+  // for (let img of imgToBeModified) {
+  //   if(img.getAttribute('alt') =='-'){
+       //img.after = (<img src='/stamp0432.png'/>);
+  //   }
+  // }
 
+  function delete_confirm() {
+    let cfm = confirm('确定删除？');
+    if (cfm) {
+    } else {
+      return false;
+    }
+
+  }
+
+</script>
+
+</body>
+
+</html>
